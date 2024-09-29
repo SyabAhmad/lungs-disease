@@ -32,7 +32,7 @@ The goal of this project is to develop a deep learning model that can accurately
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/lung-disease-classification.git
+   git clone https://github.com/SyabAhmad/lung-disease-classification.git
    cd lung-disease-classification
    ```
 
@@ -47,7 +47,7 @@ The goal of this project is to develop a deep learning model that can accurately
 ## Usage
 
 1. **Data Preparation**:
-
+   * Dataset can be found on kaggle.
    * Place your X-ray images in separate folders named `Lung_Opacity`, `Normal`, and `Viral Pneumonia` under the `Lung X-Ray Image` directory.
    * Update the paths in the `load_and_preprocess_images` function in `data_processing.py` to reflect your local file structure.
 2. **Run Data Processing**:
